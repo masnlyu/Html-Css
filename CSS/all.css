@@ -58,12 +58,12 @@ body{
 }
 .banner{
   background-image: url(../images/banner_02.png);
-  width: 1000px;
+  max-width: 1000px;
   height: 409px;
   
 }
 .banner div{
-  width: 960px;
+  width: 100%;
   background-color:rgba(0, 0, 0, 0.2);
   padding: 20px 20px;
   line-height: 1.5;
@@ -79,6 +79,7 @@ body{
 }
 .main ul{
   align-items: stretch;
+  width: 100%;
 }
 .main li{
   width: 30%;
@@ -87,6 +88,9 @@ body{
   box-shadow: 0px 3px 4px rgba(0,0,0,0.15);
   margin: 10px 10px;
 }
+.main img{
+  max-width: 100%;
+}
 .main li h2{
   font-size: 24px;
   padding: 10px;
@@ -94,7 +98,7 @@ body{
 }
 .main li p{
   font-size: 16 px;
-  padding:20px;
+  padding:1%;
   line-height: 1.5;
 }
 .content{
@@ -108,7 +112,7 @@ body{
   font-weight: bold;
 }
 .content table{
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
 }
 .content table thead{
